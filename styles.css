@@ -502,9 +502,7 @@ a {
   }
 
   [color-scheme="dark"] {
-    :root {
       --header-bg: url(./images/bg-desktop-dark.jpg);
-    }
   }
 
 
