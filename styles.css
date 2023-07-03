@@ -197,7 +197,6 @@ a {
 }
 
 [color-scheme="dark"] {
-  :root {
     --body-bg: var(--very-dark-blue---dt);
     --text-color: var(--light-grayish-blue---dt);
     --todo-item-bg: #25273C;
@@ -210,7 +209,6 @@ a {
     --theme-switch-bg: url(./images/icon-sun.svg);
     --header-bg: url(./images/bg-mobile-dark.jpg);
     --rm-btn-filter: invert(54%) sepia(0%) saturate(23%) hue-rotate(171deg) brightness(159%) contrast(100%);
-  }
 }
 
 /* [color-scheme="dark"] {
