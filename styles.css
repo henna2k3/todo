@@ -164,8 +164,7 @@ a {
   }
 }
 
-@media (prefers-color-scheme: dark), 
-[color-scheme="dark"] {
+@media (prefers-color-scheme: dark) {
   :root {
     --body-bg: var(--very-dark-blue---dt);
     --text-color: var(--light-grayish-blue---dt);
@@ -195,6 +194,23 @@ a {
   --theme-switch-bg: url(./images/icon-moon.svg);
   --header-bg: url(./images/bg-mobile-light.jpg);
   --rm-btn-filter: invert(29%) sepia(7%) saturate(2410%) hue-rotate(197deg) brightness(89%) contrast(84%);
+}
+
+[color-scheme="dark"] {
+  :root {
+    --body-bg: var(--very-dark-blue---dt);
+    --text-color: var(--light-grayish-blue---dt);
+    --todo-item-bg: #25273C;
+    --shadow: var(--very-dark-blue---dt);
+    --text-strikethrough-color: var(--dark-grayish-blue---dt);
+    --todo-item-border-color: #fff1;
+    --checker-border: #fff3;
+    --filter-blue: #568EFF;
+    --form-shadow: #0005;
+    --theme-switch-bg: url(./images/icon-sun.svg);
+    --header-bg: url(./images/bg-mobile-dark.jpg);
+    --rm-btn-filter: invert(54%) sepia(0%) saturate(23%) hue-rotate(171deg) brightness(159%) contrast(100%);
+  }
 }
 
 /* [color-scheme="dark"] {
@@ -476,8 +492,7 @@ a {
     }
   }
   
-  @media (prefers-color-scheme: dark), 
-  [color-scheme="dark"] {
+  @media (prefers-color-scheme: dark) {
     :root {
       --header-bg: url(./images/bg-desktop-dark.jpg);
     }
@@ -485,6 +500,12 @@ a {
   
   [color-scheme="light"] {
     --header-bg: url(./images/bg-desktop-light.jpg);
+  }
+
+  [color-scheme="dark"] {
+    :root {
+      --header-bg: url(./images/bg-desktop-dark.jpg);
+    }
   }
 
 
