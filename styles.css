@@ -261,6 +261,7 @@ header {
   padding: 3rem 1.5rem;
   display: grid;
   place-items: center;
+  align-items: start;
 }
 
 .header__wrapper {
@@ -512,6 +513,7 @@ a {
   header {
     min-height: 18.8rem;
     padding-bottom: 9.4rem;
+    align-items: center;
   }
 
   .header__wrapper {
